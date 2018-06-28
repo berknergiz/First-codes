@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+
+\bibitem{flemischdumux}
+Dumux homepage.
+\newblock URL http://www.dumux.org/documents/dumux-handbook-2.12.pdf.
+
+\bibitem{beard2001modeling}
+D.~A. Beard and J.~B. Bassingthwaighte.
+\newblock Modeling advection and diffusion of oxygen in complex vascular
+  networks.
+\newblock {\em Annals of biomedical engineering}, 29(4):298--310, 2001.
+
+\bibitem{flemisch2007dumux}
+B.~Flemisch, J.~Fritz, R.~Helmig, J.~Niessner, and B.~Wohlmuth.
+\newblock Dumux: a multi-scale multi-physics toolbox for flow and transport
+  processes in porous media.
+\newblock In {\em ECCOMAS Thematic Conference on Multiscale Computational
+  Methods for Solids and Fluids}, pages 82--87, 2007.
+
+\bibitem{fletcher1980facilitated}
+J.~Fletcher.
+\newblock On facilitated oxygen diffusion in muscle tissues.
+\newblock {\em Biophysical journal}, 29(3):437--458, 1980.
+
+\bibitem{goldman2001computational}
+D.~Goldman and A.~S. Popel.
+\newblock A computational study of the effect of vasomotion on oxygen transport
+  from capillary networks.
+\newblock {\em Journal of Theoretical Biology}, 209(2):189--199, 2001.
+
+\bibitem{hellums1977resistance}
+J.~Hellums.
+\newblock The resistance to oxygen transport in the capillaries relative to
+  that in the surrounding tissue.
+\newblock {\em Microvascular research}, 13(1):131--136, 1977.
+
+\bibitem{hoofd1992updating}
+L.~Hoofd.
+\newblock Updating the krogh model-assumptions and extensions.
+\newblock In {\em SEMINAR SERIES-SOCIETY FOR EXPERIMENTAL BIOLOGY}, volume~51,
+  pages 197--197. Cambridge University Press, 1992.
+
+\bibitem{kuzmin2010guide}
+D.~Kuzmin.
+\newblock A guide to numerical methods for transport equations.
+\newblock {\em University Erlangen-Nuremberg}, 2010.
+
+\bibitem{lee2017accounting}
+C.-J. Lee, B.~S. Gardiner, J.~P. Ngo, S.~Kar, R.~G. Evans, and D.~W. Smith.
+\newblock Accounting for oxygen in the renal cortex: a computational study of
+  factors that predispose the cortex to hypoxia.
+\newblock {\em American Journal of Physiology-Renal Physiology},
+  313(2):F218--F236, 2017.
+
+\bibitem{pittman2011regulation}
+R.~N. Pittman.
+\newblock Regulation of tissue oxygenation.
+\newblock In {\em Colloquium series on integrated systems physiology: from
+  molecule to function}, volume~3, pages 1--100. Morgan \& Claypool Life
+  Sciences, 2011.
+
+\bibitem{rahman2012mathematical}
+M.~S. Rahman and M.~A. Haque.
+\newblock Mathematical modeling of blood flow.
+\newblock In {\em Informatics, Electronics \& Vision (ICIEV), 2012
+  International Conference on}, pages 672--676. IEEE, 2012.
+
+\bibitem{secomb1993analysis}
+T.~Secomb, R.~Hsu, M.~Dewhirst, B.~Klitzman, and J.~Gross.
+\newblock Analysis of oxygen transport to tumor tissue by microvascular
+  networks.
+\newblock {\em International Journal of Radiation Oncology* Biology* Physics},
+  25(3):481--489, 1993.
+
+\bibitem{Secomb2004}
+T.~W. Secomb, R.~Hsu, E.~Y.~H. Park, and M.~W. Dewhirst.
+\newblock Green's function methods for analysis of oxygen delivery to tissue by
+  microvascular networks.
+\newblock {\em Annals of Biomedical Engineering}, 32(11):1519--1529, Nov 2004.
+
+\bibitem{weiss1996parameter}
+R.~Weiss.
+\newblock Parameter-free iterative linear solvers.
+\newblock {\em Mathematical Research}, 97, 1996.
+
+\end{thebibliography}

@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Structure of the Thesis}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Blood Flow and Oxygen Delivery}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Blood Flow}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Oxygen Transport and Delivery}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Current Trends in Modeling}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Simulation Methods}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Green's Function Method Code}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{DuMux}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Comparison of the Different Methods Behind the Simulations}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Comparison of the Results}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Comparison of the Numerical Methods}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 15
+\BOOKMARK [1][-]{section.6}{Acknowledgements}{}% 16
+\BOOKMARK [1][-]{section.6}{References}{}% 17
+\BOOKMARK [1][-]{appendix.A}{Appendix}{}% 18
+\BOOKMARK [2][-]{subsection.A.1}{DuMuX Results Visualized with ParaView}{appendix.A}% 19
+\BOOKMARK [2][-]{subsection.A.2}{Green's Function Code Results}{appendix.A}% 20

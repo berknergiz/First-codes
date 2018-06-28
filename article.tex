@@ -1,0 +1,126 @@
+% -------------------------------------------------------------------------------------------------
+%
+%  Skeleton for theses at the Institute of Robotics and Intelligent Systems
+%
+% -------------------------------------------------------------------------------------------------
+%
+% FILENAME:   thesis.tex
+%
+% ABSTRACT:   main file for theses
+%
+% EXCEPTIONS: -
+%
+% USAGE:      !!!!!!COMPILE WITH PDFLATEX, *NOT* WITH LATEX OR TEX!!!!!!!
+%
+% HISTORY:    written by Sascha A. Stoeter <stoeter@iris.ethz.ch>, www.stoeter.com, 02.06.2004
+%             modified by Martin Probst, 18.08.2004
+%             modified by Chauncey Graetzel, 11.05.2005
+
+% -------------------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,onecolumn]{article}
+\usepackage{irisarticle}
+
+% -------------------------------------------------------------------------------------------------
+% Add needed packages. Some generally useful packages are listed for
+% your convenience.
+% -------------------------------------------------------------------------------------------------
+\usepackage{subfigure}                          % enable the use of subfigures
+%\usepackage[bf]{caption}                       % must go after subfigure
+\usepackage[thickspace,thinqspace]{SIunits}     %
+
+\usepackage{hyperref}                           % enable Hyperlinks in pdf/ps Docs
+\usepackage{pdfpages}
+
+
+
+% -------------------------------------------------------------------------------------------------
+% Some handy definition to simplify future markup changes
+% -------------------------------------------------------------------------------------------------
+\providecommand{\eg}{e.g.}
+\providecommand{\etal}{\textit{et al.}}
+\providecommand{\ie}{i.e.}
+
+%\setlength{\textwidth}{18cm} \setlength{\oddsidemargin}{-1cm}
+%\setlength{\evensidemargin}{-1cm}
+
+% -------------------------------------------------------------------------------------------------
+% Select type of thesis
+% -------------------------------------------------------------------------------------------------
+\renewcommand{\iristhesistype}{Bachelor}
+
+% -------------------------------------------------------------------------------------------------
+% Set names
+% -------------------------------------------------------------------------------------------------
+\renewcommand{\irisauthor}{Berk Nergiz}
+%:
+\renewcommand{\irisadviser}{}
+
+
+% -------------------------------------------------------------------------------------------------
+% Beginning of the main document body
+% -------------------------------------------------------------------------------------------------
+\begin{document}
+
+% include all Bib-items even if they're not cited in the text
+\nocite{*}
+
+% This is the first part of the front matter. Pages appear unnumbered
+% and the pages are not counted.
+
+% Title page: set title and date preferably formatted according to
+% ISO 8601
+\iristitlepage{1D Computations of Flow and Oxygen Transport in Micro-Vascular Networks}{June 2018}
+
+
+% This is the second part of the front matter. Pages appear with
+% lowercase roman numbering. The first page number is 'i'.
+\pagenumbering{roman}
+
+% Table of contents
+\newpage
+\tableofcontents
+\addtocontents{toc}{\vspace{.5\baselineskip}}
+
+% List of tables
+%\newpage
+%\addcontentsline{toc}{section}{\protect\numberline{}{List of Tables}}
+%\listoftables
+
+% List of figures
+%\newpage
+%\addcontentsline{toc}{section}{\protect\numberline{}{List of Figures}}
+%\listoffigures
+
+\clearpage
+\pagenumbering{arabic}
+
+% This is the main part of the thesis. Pages appear with arabic numbering.
+
+% Abstract must not be longer than one page per language.
+\addcontentsline{toc}{section}{\protect\numberline{}{Abstract}}
+\markright{Abstract}
+\input{Abstract}
+
+% Main body
+% \input{Introduction}
+
+\input{GreatWork}
+
+%\input{Conclusion}
+
+% Bibliography
+\newpage
+\addtocontents{toc}{\vspace{.5\baselineskip}}
+\addcontentsline{toc}{section}{\protect\numberline{}{References}}
+\bibliography{article}
+
+
+% Appendices (if needed)
+\addtocontents{toc}{\vspace{.5\baselineskip}}
+\appendix
+\include{Appendix}
+%\include{Examples}
+
+
+\end{document}
